@@ -1,0 +1,3 @@
+spring.application.name=Payment
+
+stripe.secret.key=your_stripe_secret_key_here

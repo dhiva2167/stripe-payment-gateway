@@ -1,0 +1,18 @@
+# Backend (Spring Boot)
+Payment/Payment/target/
+Payment/Payment/.mvn/wrapper/maven-wrapper.jar
+Payment/Payment/.idea
+Payment/Payment/*.iml
+Payment/Payment/src/main/resources/application.properties
+
+# Frontend (Vite/React)
+payment-frontend/node_modules/
+payment-frontend/dist/
+payment-frontend/dist-ssr/
+payment-frontend/*.local
+
+# General
+.vscode/
+.idea/
+.DS_Store
+*.log
