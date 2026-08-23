@@ -14,7 +14,7 @@ function CheckoutForm() {
     const result = await stripe.confirmPayment({
       elements,
       confirmParams: {
-        return_url: "http://localhost:5173", // where Stripe sends the user after payment
+        return_url: "https://stripe-payment-gateway-1.onrender.com", // where Stripe sends the user after payment
       },
     });
 
