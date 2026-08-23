@@ -12,7 +12,7 @@ function App() {
 
  
   async function handleStartPayment() {
-    const response = await fetch("https://stripe-payment-gateway-1.onrender.com/api/create-payment-intent", {
+    const response = await fetch("https://stripe-payment-gateway-ra8x.onrender.com/api/create-payment-intent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
