@@ -4,7 +4,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import CheckoutForm from "./CheckoutForm";
 
 
-const stripePromise = loadStripe("pk_test_PUT_YOUR_PUBLISHABLE_KEY_HERE");
+const stripePromise = loadStripe("pk_test_51U9fkuLK2yNUCpqZqKaovqvqSC6P3mTv1gjpVhYkQ13Xi3F58UCr2dKaSiVkactfGwOcfz0BcfYi0Bzj4cep3Rkw00LofThk1i");
 
 function App() {
   const [amount, setAmount] = useState(500);
