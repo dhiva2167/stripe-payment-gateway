@@ -49,6 +49,7 @@ It also features strict webhook signature verification to guarantee that incomin
 |--------|----------|-------------|
 | `POST` | `/api/v1/payments/create` | Initializes a new payment intent. Requires an idempotency key. |
 | `POST` | `/api/v1/webhooks/stripe` | Listens for asynchronous events from Stripe. |
+| `POST` | `/greet-post | creates new post request.|
 
 ## 🧪 Testing
 - The service was subjected to a 500 concurrent request load test, simulating aggressive network retries. Resulted in **zero duplicate transactions**.
